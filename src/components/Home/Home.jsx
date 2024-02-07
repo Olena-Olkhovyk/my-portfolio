@@ -1,4 +1,4 @@
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub, SiInstagram } from "react-icons/fa";
 import profileImg from "../../assets/home/olena.png";
 import shape1 from "../../assets/home/shape-1.png";
 import shape2 from "../../assets/home/shape-2.png";
