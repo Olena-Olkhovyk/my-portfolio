@@ -12,19 +12,19 @@
   --bg-color: hsl(216, 18%, 16%);
   --bg-color-alt: hsl(213, 10%, 21%);
   --container-color: hsl(217, 2%, 65%);
-  --border-color: hsl(210, 2%, 65%);
   --first-gradient: linear-gradient(
     0deg,
     var(--bg-color-alt) 0%,
     var(--bg-color) 100%
   );
+  --border-color: hsl(210, 2%, 65%);
 
   --body-font: "Jost", sans-serif;
   --second-font: "Caveat", cursive;
   --biggest-font-size: 90px;
   --h1-font-size: 44px;
   --h2-font-size: 30px;
-  --h3-dont-size: 28px;
+  --h3-font-size: 28px;
   --h4-font-size: 24px;
   --h5-font-size: 22px;
   --largest-font-size: 21px;
