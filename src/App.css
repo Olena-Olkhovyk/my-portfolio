@@ -11,7 +11,7 @@
   --text-color: hsl(0, 0%, 92%);
   --bg-color: hsl(216, 18%, 16%);
   --bg-color-alt: hsl(213, 10%, 21%);
-  --container-color: hsl(217, 2%, 65%);
+  --container-color: hsl(217, 18%, 14%);
   --first-gradient: linear-gradient(
     0deg,
     var(--bg-color-alt) 0%,
