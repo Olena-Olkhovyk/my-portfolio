@@ -234,6 +234,34 @@ img {
   transform: translateY(-50%);
 }
 
+.sectionTitle,
+.sectionSubtitle {
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: var(--h1-font-size);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.sectionSubtitle {
+  color: var(--primary-color);
+  font-size: var(--smaller-font-size);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 65px;
+  display: block;
+}
+
+.sectionSubtitle span {
+  font-family: var(--second-font);
+  color: var(--title-color);
+  font-size: var(--h3-font-size);
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
 .swiper-wrapper {
   margin-bottom: 52px;
 }
