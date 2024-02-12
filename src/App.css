@@ -17,6 +17,16 @@
     var(--bg-color-alt) 0%,
     var(--bg-color) 100%
   );
+  --second-gradient: linear-gradient(
+    180deg,
+    var(--bg-color-alt) 0%,
+    var(--bg-color) 100%
+  );
+  --third-gradient: linear-gradient(
+    180deg,
+    var(--bg-color) 0%,
+    var(--bg-color) 100%
+  );
   --border-color: hsl(210, 2%, 65%);
 
   --body-font: "Jost", sans-serif;
