@@ -1,0 +1,68 @@
+.sectionTitle,
+.sectionSubtitle {
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: var(--h1-font-size);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.sectionSubtitle {
+  color: var(--primary-color);
+  font-size: var(--smaller-font-size);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 65px;
+  display: block;
+}
+
+.sectionSubtitle span {
+  font-family: var(--second-font);
+  color: var(--title-color);
+  font-size: var(--h3-font-size);
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.servicesCard {
+  background-color: var(--container-color);
+  padding: 30px 35px;
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+}
+
+.servicesDescription {
+  min-height: 175px;
+}
+
+.servicesShape {
+  position: absolute;
+  filter: invert(1);
+  opacity: 0.6;
+  right: -24px;
+  bottom: -24px;
+  width: 141px;
+  height: 141px;
+}
+
+.servicesSubtitle {
+  color: var(--title-color);
+  font-size: var(--tiny-font-size);
+  font-weight: 700;
+  margin-bottom: 65px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.servicesTitle {
+  font-size: var(--h4-font-size);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.free {
+  text-transform: uppercase;
+}

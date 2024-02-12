@@ -233,3 +233,7 @@ img {
   left: -100%;
   transform: translateY(-50%);
 }
+
+.swiper-wrapper {
+  margin-bottom: 52px;
+}
