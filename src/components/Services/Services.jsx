@@ -10,8 +10,8 @@ const Services = () => {
   const container = "container";
   return (
     <section className={`${container} ${classes.services}`} id="services">
-      <h2 className={classes.sectionTitle}>What I Do</h2>
-      <p className={classes.sectionSubtitle}>
+      <h2 className="sectionTitle">What I Do</h2>
+      <p className="sectionSubtitle">
         My <span>Services</span>
       </p>
 
