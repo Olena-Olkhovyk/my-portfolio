@@ -1,3 +1,7 @@
+.services {
+  margin-bottom: 200px;
+}
+
 .servicesCard {
   background-color: var(--container-color);
   padding: 30px 35px;
