@@ -1,5 +1,6 @@
 .skillsPage {
   background-image: var(--third-gradient);
+  padding-bottom: 200px;
 }
 
 .skillsContainer {
