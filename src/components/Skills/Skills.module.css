@@ -1,3 +1,7 @@
+.skillsPage {
+  background-image: var(--third-gradient);
+}
+
 .skillsContainer {
   display: grid;
   gap: 24px;

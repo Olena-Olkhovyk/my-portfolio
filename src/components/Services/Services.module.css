@@ -1,3 +1,7 @@
+.servicesPage {
+  background-image: var(--second-gradient);
+}
+
 .services {
   margin-bottom: 200px;
 }
