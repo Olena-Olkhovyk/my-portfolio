@@ -1,7 +1,7 @@
 import classes from "./Home.module.css";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
-import profileImg from "../../assets/home/olena.png";
+import profileImg from "../../assets/home/olena1.png";
 import shape1 from "../../assets/home/shape-1.png";
 import shape2 from "../../assets/home/shape-2.png";
 const Home = () => {
