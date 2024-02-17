@@ -1,3 +1,6 @@
+import fashionStore from "../../assets/portfolio/f.png";
+import weather from "../../assets/portfolio/w.png";
+import sushi from "../../assets/portfolio/s1.png";
 export const services = [
   {
     name: "frontend development",
@@ -58,5 +61,36 @@ export const skills = [
     name: "FIGMA",
     percentage: 95,
     description: "lorem2044444444dddddddddddddfvcdedcecd",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    img: sushi,
+    category: "food",
+    title: "Sushi resturant",
+    description: "jhgyhjbvghjbghjbghjgjgbghbghbghghbghbghhghhghh",
+  },
+  {
+    id: 2,
+    img: fashionStore,
+    category: "fashion",
+    title: "Fashion store",
+    description: "jhgyhjbvghjbghjbghjgjgbghbghbghghbghbghhghhghh",
+  },
+  {
+    id: 3,
+    img: weather,
+    category: "weather",
+    title: "Weather",
+    description: "jhgyhjbvghjbghjbghjgjgbghbghbghghbghbghhghhghh",
+  },
+  {
+    id: 4,
+    img: weather,
+    category: "me",
+    title: "Me",
+    description: "jhgyhjbvghjbghjbghjgjgbghbghbghghbghbghhghhghh",
   },
 ];
