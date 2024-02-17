@@ -39,8 +39,8 @@ const Services = () => {
         >
           {services.map(({ name, title, description }, index) => (
             <SwiperSlide className={classes.servicesCard} key={index}>
-              <span className={classes.servicesSubtitle}>{name}</span>
-              <h3 className={classes.servicesTitle}>{title}</h3>
+              <span className="subtitle">{name}</span>
+              <h3 className="title">{title}</h3>
               <p className={classes.servicesDescription}>{description}</p>
               <h4 className={classes.free}>free</h4>
               <img

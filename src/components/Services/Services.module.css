@@ -28,7 +28,7 @@
   height: 141px;
 }
 
-.servicesSubtitle {
+/* .servicesSubtitle {
   color: var(--title-color);
   font-size: var(--tiny-font-size);
   font-weight: 700;
@@ -41,7 +41,7 @@
   font-size: var(--h4-font-size);
   text-transform: capitalize;
   margin-bottom: 20px;
-}
+} */
 
 .free {
   text-transform: uppercase;
