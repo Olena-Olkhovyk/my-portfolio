@@ -11,17 +11,20 @@ export const services = [
   {
     name: "mentoring",
     title: "html, css, javaScript, react",
-    description: "I help newcomers in the IT field to develop websites",
+    description:
+      "I assist beginners in building websites by providing mentorship and guidance, ensuring they gain the necessary skills and knowledge. ",
   },
   {
     name: "mentoring",
     title: "english language",
-    description: "I help newcomers learn the basics of English ",
+    description:
+      " I provide support for individuals looking to enhance their English language skills, guiding them through the learning process for effective language acquisition. ",
   },
   {
     name: "mentoring",
     title: "bug fixing",
-    description: "I help SheCode's students fix bugs",
+    description:
+      "I guide newcomers at SheCodes School in identifying and resolving bugs",
   },
 ];
 
@@ -30,37 +33,43 @@ export const skills = [
     id: 1,
     name: "HTML",
     percentage: 95,
-    description: "lorem204444444444ddddddddddddddddfvcdedcecd",
+    description:
+      "I have extensive experience in crafting the structure of web pages using HTML. My expertise includes developing clean and semantically sound code, providing an efficient foundation for web projects.",
   },
   {
     id: 2,
     name: "CSS",
     percentage: 95,
-    description: "lorem204dddddddddfvcdedcecd",
+    description:
+      "I possess proficiency in styling web pages using CSS. My approach to layout ensures not only an aesthetic design but also usability, creating a pleasing user experience.",
   },
   {
     id: 3,
     name: "JavaScript",
     percentage: 90,
-    description: "lorem20444444444444ddddddddfvcdedcecd",
+    description:
+      "I possess a profound understanding of JavaScript and its utilization to craft interactive and dynamic websites. My skills encompass the development of client-side scripts, enhancing the functionality and user experience of websites.",
   },
   {
     id: 4,
     name: "React",
     percentage: 90,
-    description: "lorem204444444444dddddddfvcdedcecd",
+    description:
+      "I excel in React with hands-on experience crafting dynamic and interactive user interfaces. My expertise covers state management, component lifecycle, and seamless integration of external APIs for robust websites ",
   },
   {
     id: 5,
     name: "Git",
     percentage: 80,
-    description: "lorem2044444444444ddddddddddddddddfvcdedcecd",
+    description:
+      "I'm proficient in Git for version control, enabling collaborative development and streamlined code management. I have experience creating/merging branches, resolving conflicts, ensuring smooth workflows in individual and team projects.",
   },
   {
     id: 6,
     name: "FIGMA",
     percentage: 95,
-    description: "lorem2044444444dddddddddddddfvcdedcecd",
+    description:
+      "As a developer, I seamlessly integrate Figma into my workflow, extracting design assets and translating visual concepts into code with precision.",
   },
 ];
 
@@ -70,27 +79,31 @@ export const projects = [
     img: sushi,
     category: "food",
     title: "Sushi resturant",
-    description: "jhgyhjbvghjbghjbghjgjgbghbghbghghbghbghhghhghh",
+    description:
+      "Successfully combining my React expertise with API integration, I've crafted a dynamic website for Sushi Restaurant. Leveraging advanced techniques, including Axios and other methodologies, I seamlessly incorporated API functionalities to enhance the user experience. ",
   },
   {
     id: 2,
     img: fashionStore,
     category: "fashion",
     title: "Fashion store",
-    description: "jhgyhjbvghjbghjbghjgjgbghbghbghghbghbghhghhghh",
+    description:
+      "Expanding my portfolio, I delved into the realm of fashion with the creation of a stylish online menswear store. Meticulously developed using HTML, CSS, and JavaScript, the site seamlessly integrates adaptive design for a flawless experience across devices.",
   },
   {
     id: 3,
     img: weather,
     category: "weather",
     title: "Weather",
-    description: "jhgyhjbvghjbghjbghjgjgbghbghbghghbghbghhghhghh",
+    description:
+      "Taking on the challenge of providing real-time weather information, I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions, forecasts, and other meteorological details. ",
   },
   {
     id: 4,
     img: weather,
     category: "me",
     title: "Me",
-    description: "jhgyhjbvghjbghjbghjgjgbghbghbghghbghbghhghhghh",
+    description:
+      "Taking on the challenge of providing real-time weather information, I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions, forecasts, and other meteorological details. ",
   },
 ];
