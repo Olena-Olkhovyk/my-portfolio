@@ -9,6 +9,18 @@
   position: relative;
   padding: 30px;
   border-radius: 20px;
+  height: 650px;
+  position: relative;
+}
+
+.link {
+  position: absolute;
+  bottom: 20px;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: var(--primary-color);
 }
 
 .portfolioContainer {
