@@ -54,7 +54,8 @@ const Home = () => {
 
         <p className={classes.text}>
           From Ukraine, Kharkiv. Based in Germany, Berlin. I have reach
-          experiance in Frontend, also I am good at design.
+          experiance in Frontend. I love exploring and creating💥 I'm a lifelong
+          learner and I might have a thing for Sushi🍣
         </p>
 
         <div className={classes.socials}>
