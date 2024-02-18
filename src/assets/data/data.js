@@ -69,7 +69,7 @@ export const skills = [
     name: "FIGMA",
     percentage: 95,
     description:
-      "As a developer, I seamlessly integrate Figma into my workflow, extracting design assets and translating visual concepts into code with precision.",
+      "My proficiency in Figma extends beyond design appreciation to practical implementation in the development workflow. I leverage Figma to extracting design assets, and ensuring a smooth translation of visual concepts into code.",
   },
 ];
 
@@ -96,7 +96,7 @@ export const projects = [
     category: "weather",
     title: "Weather",
     description:
-      "Taking on the challenge of providing real-time weather information, I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions, forecasts, and other meteorological details. ",
+      "I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions. ",
   },
   {
     id: 4,
@@ -104,6 +104,6 @@ export const projects = [
     category: "me",
     title: "Me",
     description:
-      "Taking on the challenge of providing real-time weather information, I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions, forecasts, and other meteorological details. ",
+      "I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions. ",
   },
 ];
