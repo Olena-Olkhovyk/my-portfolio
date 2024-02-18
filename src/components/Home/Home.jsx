@@ -1,7 +1,7 @@
 import classes from "./Home.module.css";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
-import profileImg from "../../assets/home/olena.png";
+import profileImg from "../../assets/home/olena1.png";
 import shape1 from "../../assets/home/shape-1.png";
 import shape2 from "../../assets/home/shape-2.png";
 const Home = () => {
@@ -54,7 +54,8 @@ const Home = () => {
 
         <p className={classes.text}>
           From Ukraine, Kharkiv. Based in Germany, Berlin. I have reach
-          experiance in Frontend, also I am good at design.
+          experiance in Frontend. I love exploring and creating💥 I'm a lifelong
+          learner and I might have a thing for Sushi🍣
         </p>
 
         <div className={classes.socials}>

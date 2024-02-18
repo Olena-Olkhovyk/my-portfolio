@@ -265,3 +265,18 @@ img {
 .swiper-wrapper {
   margin-bottom: 52px;
 }
+
+.subtitle {
+  color: var(--title-color);
+  font-size: var(--tiny-font-size);
+  font-weight: 700;
+  margin-bottom: 65px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: var(--h4-font-size);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
