@@ -53,7 +53,7 @@ export const skills = [
   {
     id: 5,
     name: "Git",
-    percentage: 90,
+    percentage: 80,
     description: "lorem2044444444444ddddddddddddddddfvcdedcecd",
   },
   {
