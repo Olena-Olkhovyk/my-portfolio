@@ -48,7 +48,7 @@ export const skills = [
     name: "JavaScript",
     percentage: 90,
     description:
-      "I possess a profound understanding of JavaScript and its utilization to craft interactive and dynamic websites. My skills encompass the development of client-side scripts, enhancing the functionality and user experience of websites.",
+      "I master JavaScript to create dynamic websites, developing client-side scripts for enhanced functionality and user experience.Proficient in client-side script development.",
   },
   {
     id: 4,
