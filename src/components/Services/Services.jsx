@@ -42,7 +42,9 @@ const Services = () => {
               <span className="subtitle">{name}</span>
               <h3 className="title">{title}</h3>
               <p className={classes.servicesDescription}>{description}</p>
-              <h4 className={classes.free}>free</h4>
+              <h4 className={classes.free}>
+                {index === 0 ? "fee-based" : "free"}
+              </h4>
               <img
                 src={shapeTwo}
                 alt="shape image"
