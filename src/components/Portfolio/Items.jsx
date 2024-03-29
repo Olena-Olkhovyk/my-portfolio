@@ -6,7 +6,7 @@ const Items = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, title, img, category, description } = projectItem;
+        const { id, title, img, category, description, link } = projectItem;
         return (
           <motion.div
             layout
@@ -27,7 +27,7 @@ const Items = ({ projectItems }) => {
             <h3 className="title">{title}</h3>
             <p className={classes.portfolioDescription}>{description}</p>
 
-            <a href="" className={classes.link}>
+            <a href={link} className={classes.link} target="_blank">
               View project
             </a>
           </motion.div>
