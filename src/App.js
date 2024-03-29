@@ -1,8 +1,8 @@
 import "./App.css";
-import Home from "./components/Home/Home";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Services from "./components/Services/Services";
-import Skills from "./components/Skills/Skills";
+import Home from "./components/home/Home";
+import Portfolio from "./components/portfolio/Portfolio";
+import Services from "./components/services/Services";
+import Skills from "./components/skills/Skills";
 
 function App() {
   return (
