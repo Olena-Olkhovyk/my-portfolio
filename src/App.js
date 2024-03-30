@@ -1,14 +1,14 @@
 import "./App.css";
 import Home from "./components/Home/Home";
-import Portfolio from "./components/Portfolio/Portfolio";
 import Services from "./components/Services/Services";
 import Skills from "./components/Skills/Skills";
-import Resume from "./Resume/Resume";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Resume from "./components/Resume/Resume";
 
 function App() {
   return (
     <main className="main">
-      {/* <Home /> */}
+      <Home />
       <Services />
       <Skills />
       <Portfolio />
