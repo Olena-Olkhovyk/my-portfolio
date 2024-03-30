@@ -1,5 +1,5 @@
 import classes from "./resume.module.css";
-import { cv } from "../assets/data/data";
+import { cv } from "../../assets/data/data";
 import Card from "./Card";
 const Resume = () => {
   const container = "container";
