@@ -8,7 +8,7 @@ import Resume from "./Resume/Resume";
 function App() {
   return (
     <main className="main">
-      <Home />
+      {/* <Home /> */}
       <Services />
       <Skills />
       <Portfolio />
