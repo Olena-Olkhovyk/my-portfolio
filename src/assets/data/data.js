@@ -115,7 +115,7 @@ export const cv = [
     title: "SheCodes",
     subtitle: "Front-end Developer",
     date: "2022-2023",
-    description: "lorem20",
+    description: "",
     category: "education",
   },
   {
@@ -123,7 +123,7 @@ export const cv = [
     title: "Kharkiv Humanitarian-Pedagogical Academy",
     subtitle: "Primary School and English Teacher",
     date: "2015-2021",
-    description: "lorem20",
+    description: "",
     category: "education",
   },
   {
@@ -131,7 +131,7 @@ export const cv = [
     title: "Red Rocket Software",
     subtitle: "Software Engineer",
     date: "2023-present",
-    description: "lorem20",
+    description: "",
     category: "experiance",
   },
   {
@@ -139,7 +139,7 @@ export const cv = [
     title: "PrivatBank",
     subtitle: "Customer Care Representative",
     date: "2019-2022",
-    description: "lorem20",
+    description: "",
     category: "experiance",
   },
 ];
