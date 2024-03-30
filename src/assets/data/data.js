@@ -79,6 +79,7 @@ export const projects = [
     img: sushi,
     category: "food",
     title: "Sushi resturant",
+    link: "https://sushi-restaurant1.vercel.app/",
     description:
       "Successfully combining my React expertise with API integration, I've crafted a dynamic website for Sushi Restaurant. Leveraging advanced techniques, including Axios and other methodologies, I seamlessly incorporated API functionalities to enhance the user experience. ",
   },
@@ -105,5 +106,40 @@ export const projects = [
     title: "Me",
     description:
       "I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions. ",
+  },
+];
+
+export const cv = [
+  {
+    id: 0,
+    title: "SheCodes",
+    subtitle: "Front-end Developer",
+    date: "2022-2023",
+    description: "lorem20",
+    category: "education",
+  },
+  {
+    id: 1,
+    title: "Kharkiv Humanitarian-Pedagogical Academy",
+    subtitle: "Primary School and English Teacher",
+    date: "2015-2021",
+    description: "lorem20",
+    category: "education",
+  },
+  {
+    id: 2,
+    title: "Red Rocket Software",
+    subtitle: "Software Engineer",
+    date: "2023-present",
+    description: "lorem20",
+    category: "experiance",
+  },
+  {
+    id: 3,
+    title: "PrivatBank",
+    subtitle: "Customer Care Representative",
+    date: "2019-2022",
+    description: "lorem20",
+    category: "experiance",
   },
 ];
