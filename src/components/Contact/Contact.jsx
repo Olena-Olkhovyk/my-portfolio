@@ -12,7 +12,7 @@ const Contact = () => {
         </p>
 
         <div className={classes.contactContainer}>
-          <div className={classes.contactContent}>
+          <div>
             <div className={classes.contactCard}>
               <span className={classes.contactIcon}>
                 <FaRegMap />
@@ -35,7 +35,6 @@ const Contact = () => {
               <p className={classes.cardData}>+4915121380883</p>
             </div>
           </div>
-
           <form className={classes.contactForm}>
             <div className={classes.formGroup}>
               <div className={classes.formDiv}>
@@ -50,18 +49,25 @@ const Contact = () => {
                 </label>
                 <input type="email" className={classes.formInput} />
               </div>
-              <div className={classes.formDiv}>
-                <label className={classes.formTag}>
-                  Your Subject <b>*</b>
-                </label>
-                <input type="text" className={classes.formInput} />
-              </div>
-              <div className={`${classes.formDiv} ${classes.formArea}`}>
-                <label className={classes.formTag}>
-                  Your Message <b>*</b>
-                </label>
-                <textarea className={classes.formInput}></textarea>
-              </div>
+            </div>
+            <div className={classes.formDiv}>
+              <label className={classes.formTag}>
+                Your Subject <b>*</b>
+              </label>
+              <input type="text" className={classes.formInput} />
+            </div>
+            <div className={`${classes.formDiv} ${classes.formArea}`}>
+              <label className={classes.formTag}>
+                Your Message <b>*</b>
+              </label>
+              <textarea className={classes.formInput}></textarea>
+            </div>
+
+            <div className={classes.submit}>
+              <p>* Accept the terms and conditions.</p>
+              <button type="submit" className="btn">
+                Send Message
+              </button>
             </div>
           </form>
         </div>
