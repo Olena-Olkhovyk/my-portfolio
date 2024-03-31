@@ -1,6 +1,7 @@
 .contactPage {
   padding-top: 270px;
   background-image: var(--first-gradient);
+  padding-bottom: 170px;
 }
 
 .contactContainer {
