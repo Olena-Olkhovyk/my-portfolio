@@ -3,7 +3,8 @@
   min-height: 100vh;
   display: grid;
   align-items: center;
-  padding-bottom: 180px;
+  padding-bottom: 370px;
+  padding-top: 180px;
 }
 
 .homeContainer {
