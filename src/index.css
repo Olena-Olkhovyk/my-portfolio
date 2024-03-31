@@ -280,3 +280,13 @@ img {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
+
+.shape {
+  position: absolute;
+  filter: invert(1);
+  opacity: 0.6;
+  right: -24px;
+  bottom: -24px;
+  width: 141px;
+  height: 141px;
+}
