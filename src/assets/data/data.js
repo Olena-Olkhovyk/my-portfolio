@@ -1,6 +1,11 @@
 import fashionStore from "../../assets/portfolio/f.png";
 import weather from "../../assets/portfolio/w.png";
 import sushi from "../../assets/portfolio/s1.png";
+
+import sacha from "../testimonials/Sacha.webp";
+import olena from "../testimonials/Olena.webp";
+import samuel from "../testimonials/samuel-_1_.webp";
+
 export const services = [
   {
     name: "frontend development",
@@ -141,5 +146,48 @@ export const cv = [
     date: "2019-2022",
     description: "",
     category: "experiance",
+  },
+];
+
+export const testimonials = [
+  {
+    id: 0,
+    name: "Olena Voloshina",
+    img: olena,
+    author: "DIRECTOR, CUSTOMER SERVICE DEPARTMENT PRIVAT BANK",
+    description:
+      "As the director of Privat Bank's customer Service department, Olena proved to me her initiative-oriented prowess. She coped successfully with her official duties and also has good business communication skills. Olena has a high working capacity, strongly supports the work of the company in difficult moments, even outside working hours.In the team, she expressed her point of view and took the initiative to help team members adapt to the team.",
+  },
+  {
+    id: 1,
+    name: "Oleksandr Chelombitko",
+    img: sacha,
+    author: "PRIVATBANK SUPERVISOR",
+    description:
+      "During the period of long-term work with Olena, I can only give positive feedback. She was always responsible and proactive. Olena was never afraid of new challenges and changes. She always tries her possible best to find solutions quickly and efficiently. In her team, she has established herself as a leader both in work processes and in the life of the team. She has organizational and initiative-oriented skills.",
+  },
+  {
+    id: 2,
+    name: "Samuel Anderson",
+    img: samuel,
+    author: "FULLSTACK DEVELOPER",
+    description:
+      "I have known Olena Olkhovyk for nearly two years. She is a synonym for punctuality and very responsible, especially in her professional world. Her passion and desire to build websites inspired me to be the software engineer that I have become. She is a goalgetter and will never give up on anything no matter how minute it is.",
+  },
+  {
+    id: 3,
+    name: "Samuel Anderson",
+    img: samuel,
+    author: "FULLSTACK DEVELOPER",
+    description:
+      "I have known Olena Olkhovyk for nearly two years. She is a synonym for punctuality and very responsible, especially in her professional world. Her passion and desire to build websites inspired me to be the software engineer that I have become. She is a goalgetter and will never give up on anything no matter how minute it is.",
+  },
+  {
+    id: 2,
+    name: "Samuel Anderson",
+    img: samuel,
+    author: "FULLSTACK DEVELOPER",
+    description:
+      "I have known Olena Olkhovyk for nearly two years. She is a synonym for punctuality and very responsible, especially in her professional world. Her passion and desire to build websites inspired me to be the software engineer that I have become. She is a goalgetter and will never give up on anything no matter how minute it is.",
   },
 ];
