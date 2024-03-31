@@ -1,0 +1,49 @@
+.testimonialsPage {
+  padding-top: 270px;
+  background-image: var(--third-gradient);
+}
+
+.testimonialsCard {
+  background-color: var(--container-color);
+  padding: 20px;
+  border-radius: 20px;
+  height: 950px;
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  position: relative;
+}
+
+.testIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 66px;
+  height: 66px;
+  background-color: var(--container-color);
+  border-bottom-right-radius: 18px;
+}
+
+.testimImg {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.testDescriotion {
+  min-height: 110px;
+}
+
+.testName {
+  font-size: var(--largest-font-size);
+  margin-bottom: 30px;
+}
+
+.testAuthor {
+  font-size: var(--tiny-font-size);
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
