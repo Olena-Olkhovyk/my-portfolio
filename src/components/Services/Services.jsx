@@ -45,11 +45,7 @@ const Services = () => {
               <h4 className={classes.free}>
                 {index === 0 ? "fee-based" : "free"}
               </h4>
-              <img
-                src={shapeTwo}
-                alt="shape image"
-                className={classes.servicesShape}
-              />
+              <img src={shapeTwo} alt="shape image" className="shape" />
             </SwiperSlide>
           ))}
         </Swiper>
