@@ -6,6 +6,9 @@ import { useEffect, useState } from "react";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  useEffect(() => {
+    document.body.classList.toggle("no-scroll", showMenu);
+  }, [showMenu]);
   return (
     <header className={classes.header}>
       <nav className={classes.nav}>
