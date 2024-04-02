@@ -191,3 +191,34 @@ export const testimonials = [
       "I have known Olena Olkhovyk for nearly two years. She is a synonym for punctuality and very responsible, especially in her professional world. Her passion and desire to build websites inspired me to be the software engineer that I have become. She is a goalgetter and will never give up on anything no matter how minute it is.",
   },
 ];
+
+export const links = [
+  {
+    name: "Home",
+    path: "home",
+  },
+  {
+    name: "Services",
+    path: "services",
+  },
+  {
+    name: "Skills",
+    path: "skills",
+  },
+  {
+    name: "Portfolio",
+    path: "portfolio",
+  },
+  {
+    name: "Resume",
+    path: "resume",
+  },
+  {
+    name: "Testimonials",
+    path: "testimonials",
+  },
+  {
+    name: "Contact",
+    path: "contact",
+  },
+];
