@@ -2,7 +2,10 @@ import classes from "./header.module.css";
 import { links } from "../../assets/data/data";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { BsSun, BsMoon } from "react-icons/bs";
+import { useEffect, useState } from "react";
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <header className={classes.header}>
       <nav className={classes.nav}>
@@ -10,7 +13,7 @@ const Header = () => {
           Olkhovyk
         </a>
 
-        <div className={classes.navMenu}>
+        <div className={showMenu ? classes.showMenu : classes.navMenu}>
           <div className={classes.navData}>
             <ul className={classes.navList}>
               {links.map(({ name, path }, index) => (
@@ -55,7 +58,14 @@ const Header = () => {
             <BsSun />
           </div>
 
-          <div className={classes.navToggle}>
+          <div
+            className={`${
+              showMenu
+                ? `${classes.navToggle} ${classes.animatedToggle}`
+                : classes.navToggle
+            }`}
+            onClick={() => setShowMenu(!showMenu)}
+          >
             <span></span>
             <span></span>
           </div>
