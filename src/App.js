@@ -7,10 +7,12 @@ import Resume from "./components/Resume/Resume";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <main className="main">
+      <Header />
       <Home />
       <Services />
       <Skills />
