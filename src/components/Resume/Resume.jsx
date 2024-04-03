@@ -4,8 +4,8 @@ import Card from "./Card";
 const Resume = () => {
   const container = "container";
   return (
-    <div className={classes.resumePage}>
-      <section className={`${container} ${classes.resumeSection}`} id="resume ">
+    <div className={classes.resumePage} id="resume">
+      <section className={`${container} ${classes.resumeSection}`}>
         <h2 className="sectionTitle">Resume</h2>
         <p className="sectionSubtitle">
           My <span>Story</span>

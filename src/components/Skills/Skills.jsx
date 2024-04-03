@@ -3,11 +3,8 @@ import { skills } from "../../assets/data/data";
 const Skills = () => {
   const container = "container";
   return (
-    <div className={classes.skillsPage}>
-      <section
-        className={`${container} ${classes.skillsSection}`}
-        id="services"
-      >
+    <div className={classes.skillsPage} id="skills">
+      <section className={`${container} ${classes.skillsSection}`}>
         <h2 className="sectionTitle">Professional Skills</h2>
         <p className="sectionSubtitle">
           My <span>Talent</span>

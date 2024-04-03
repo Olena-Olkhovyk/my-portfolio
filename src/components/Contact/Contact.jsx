@@ -32,8 +32,8 @@ const Contact = () => {
   };
   const container = "container";
   return (
-    <div className={classes.contactPage}>
-      <div className={`${container} ${classes.contactSection}`} id="contact ">
+    <div className={classes.contactPage} id="contact">
+      <div className={`${container} ${classes.contactSection}`}>
         <h2 className="sectionTitle">Contact Me</h2>
         <p className="sectionSubtitle">
           Let's <span>Talk About Ideas</span>
