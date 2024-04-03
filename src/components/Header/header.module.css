@@ -6,6 +6,21 @@
   z-index: 100;
 }
 
+.scrollHeader {
+  position: fixed;
+  background-color: var(--bg-color-alt);
+  animation: header_animate 0.8s var(--transition) 0s forwards;
+}
+
+@keyframes header_animate {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -15,6 +30,7 @@
   color: var(--title-color);
   font-size: var(--h4-font-size);
   font-weight: 700;
+  cursor: pointer;
 }
 
 .navMenu {
@@ -62,8 +78,9 @@
   font-weight: 700;
   transition: all o.3s var(--transition);
   text-transform: uppercase;
+  cursor: pointer;
 }
-
+.active,
 .navLink:hover {
   color: var(--primary-color);
 }
