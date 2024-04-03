@@ -207,7 +207,7 @@ export const links = [
   },
   {
     name: "Portfolio",
-    path: "portfolio",
+    path: "work",
   },
   {
     name: "Resume",
