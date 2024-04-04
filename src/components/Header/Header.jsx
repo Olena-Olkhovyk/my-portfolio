@@ -5,10 +5,18 @@ import { BsSun, BsMoon } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { animateScroll } from "react-scroll";
+
+const getStorageTheme = () => {
+  let theme = "lightTheme";
+  if (localStorage.getItem("theme")) {
+    theme = localStorage.getItem("theme");
+  }
+  return theme;
+};
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [scrollNav, setScrollNav] = useState(false);
-  const [theme, setTheme] = useState("lightTheme");
+  const [theme, setTheme] = useState(getStorageTheme());
 
   const scrollTop = () => {
     animateScroll.scrollToTop();
@@ -40,6 +48,7 @@ const Header = () => {
 
   useEffect(() => {
     document.documentElement.className = theme;
+    localStorage.setItem("theme", theme);
   }, [theme]);
   return (
     <header
