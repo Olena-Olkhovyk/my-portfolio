@@ -57,3 +57,27 @@
 
   --transition: cubic-bezier(0.3, 0, 0.3, 1);
 }
+
+/* #LIGHT THEME */
+.lightTheme {
+  --title-color: #000;
+  --text-color: #262626;
+  --bg-color: #f0ebe3;
+  --bg-color-alt: #fff;
+  --container-color: #fff;
+  --border-color: #000;
+
+  --shadow: 5px 5px rgb(0 0 0/20%);
+}
+
+.skillsBar {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.lightTheme .skillsBar {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.lightTheme .skillsPercentage {
+  background: var(--border-color);
+}

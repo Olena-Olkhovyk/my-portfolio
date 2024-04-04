@@ -19,7 +19,7 @@ const Skills = () => {
                 </span>
               </div>
               <p className={classes.skillsDescription}>{description}</p>
-              <div className={classes.skillsBar}>
+              <div className="skillsBar">
                 <span
                   className={classes.skillsPercentage}
                   style={{ width: `${percentage}%` }}

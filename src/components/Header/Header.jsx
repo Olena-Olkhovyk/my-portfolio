@@ -8,6 +8,7 @@ import { animateScroll } from "react-scroll";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [scrollNav, setScrollNav] = useState(false);
+  const [theme, setTheme] = useState("lightTheme");
 
   const scrollTop = () => {
     animateScroll.scrollToTop();
@@ -21,6 +22,14 @@ const Header = () => {
     }
   };
 
+  const toggleTheme = () => {
+    if (theme === "lightTheme") {
+      setTheme("darkTheme");
+    } else {
+      setTheme("lightTheme");
+    }
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   }, []);
@@ -28,6 +37,10 @@ const Header = () => {
   useEffect(() => {
     document.body.classList.toggle("no-scroll", showMenu);
   }, [showMenu]);
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
   return (
     <header
       className={`${classes.header} ${scrollNav ? classes.scrollHeader : ""} `}
@@ -87,8 +100,8 @@ const Header = () => {
           </div>
         </div>
         <div className={classes.navBtns}>
-          <div className={classes.themeToggle}>
-            <BsSun />
+          <div className={classes.themeToggle} onClick={toggleTheme}>
+            {theme === "lightTheme" ? <BsMoon /> : <BsSun />}
           </div>
 
           <div
