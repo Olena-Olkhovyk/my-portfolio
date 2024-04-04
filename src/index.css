@@ -1,4 +1,8 @@
 /* RESET CSS */
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
