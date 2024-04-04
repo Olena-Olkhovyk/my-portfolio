@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 import { animateScroll } from "react-scroll";
 
 const getStorageTheme = () => {
-  let theme = "lightTheme";
+  let theme = "darkTheme";
   if (localStorage.getItem("theme")) {
     theme = localStorage.getItem("theme");
   }
