@@ -89,7 +89,7 @@ const Home = () => {
           <a href="/resume.pdf" download="resume.pdf" className="btn">
             Download CV
           </a>{" "}
-          <a href="" className="link">
+          <a href="#skills" className="link">
             My Skills
           </a>
         </div>
