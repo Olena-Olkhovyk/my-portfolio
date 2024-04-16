@@ -21,15 +21,15 @@ const Services = () => {
             clickable: true,
           }}
           breakpoints={{
-            540: {
+            460: {
               slidesPerView: 1,
               spaceBetween: 30,
             },
-            768: {
+            1200: {
               slidesPerView: 2,
               spaceBetween: 30,
             },
-            1024: {
+            1400: {
               slidesPerView: 3,
               spaceBetween: 40,
             },
