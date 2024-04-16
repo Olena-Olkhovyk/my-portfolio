@@ -15,7 +15,7 @@ export const services = [
   },
   {
     name: "mentoring",
-    title: "html, css, javaScript, react",
+    title: "html, css, js, react",
     description:
       "I assist beginners in building websites by providing mentorship and guidance, ensuring they gain the necessary skills and knowledge. ",
   },
