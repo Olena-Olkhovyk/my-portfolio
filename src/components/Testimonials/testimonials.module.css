@@ -47,3 +47,9 @@
   color: var(--primary-color);
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+  .testimonialsPage {
+    padding-top: 140px;
+  }
+}
