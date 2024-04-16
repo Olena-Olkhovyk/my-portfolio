@@ -25,7 +25,7 @@ const Services = () => {
               slidesPerView: 1,
               spaceBetween: 30,
             },
-            1200: {
+            986: {
               slidesPerView: 2,
               spaceBetween: 30,
             },

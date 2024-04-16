@@ -21,3 +21,15 @@
 .free {
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1200px) {
+  .services {
+    padding-bottom: 140px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .services {
+    padding-bottom: 100px;
+  }
+}
