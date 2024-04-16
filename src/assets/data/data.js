@@ -125,7 +125,7 @@ export const cv = [
   },
   {
     id: 1,
-    title: "Kharkiv Humanitarian-Pedagogical Academy",
+    title: "Pedagogical Academy",
     subtitle: "Primary School and English Teacher",
     date: "2015-2021",
     description: "",
