@@ -49,7 +49,7 @@
   text-align: center;
   cursor: pointer;
   position: absolute;
-  right: -24px;
+  right: -20px;
   bottom: -24px;
   z-index: 10;
   transition: all 1.2s var(--transition);
@@ -86,4 +86,35 @@
 
 .description {
   margin-block: 20px 30px;
+}
+
+@media screen and (max-width: 1378px) {
+  .resumePage {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .resumePage {
+    padding-top: 140px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .resumePage {
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .resumeContainer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .resumeIcon {
+    width: 40px;
+    height: 40px;
+  }
 }
