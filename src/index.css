@@ -298,3 +298,31 @@ img {
   width: 141px;
   height: 141px;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    max-width: 740px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .link::before {
+    left: 50%;
+    top: -72%;
+    width: 2px;
+    height: 40px;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .shape {
+    bottom: -60px;
+  }
+}
