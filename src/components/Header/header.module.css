@@ -151,3 +151,9 @@
   transform: rotate(45deg);
   bottom: 14px;
 }
+
+@media screen and (max-width: 1400px) {
+  .header {
+    padding: 30px 12px;
+  }
+}
