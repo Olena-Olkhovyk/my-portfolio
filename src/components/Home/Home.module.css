@@ -175,3 +175,64 @@
   bottom: 0;
   right: -2%;
 }
+
+@media screen and (max-width: 1500px) {
+  .imgWrapper {
+    max-width: 500px;
+    transform: translateY(-6%);
+    top: 30px;
+    right: 70px;
+  }
+
+  .profile {
+    height: auto;
+    right: 35px;
+  }
+
+  .data {
+    transform: scale(0.9);
+  }
+
+  .shape1 {
+    width: 203px;
+    height: 203px;
+  }
+
+  .shape2,
+  .shape3 {
+    width: 126px;
+    height: 126px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .imgWrapper {
+    position: relative;
+    transform: initial;
+    right: initial;
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .home {
+    padding-top: 140px;
+    padding-bottom: 180px;
+  }
+
+  .text,
+  .title,
+  .job,
+  .subTitle {
+    text-align: center;
+  }
+
+  .text {
+    margin-inline: auto;
+  }
+
+  .socials,
+  .btnsContainer {
+    justify-content: center;
+  }
+}
