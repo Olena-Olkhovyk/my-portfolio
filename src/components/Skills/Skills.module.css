@@ -15,6 +15,10 @@
   padding-inline: 30px;
 }
 
+.skillsDescription {
+  height: 140px;
+}
+
 .skillsTitle {
   display: flex;
   justify-content: space-between;
@@ -36,7 +40,7 @@
 }
 
 .skillsDescription {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .skillsBar,
@@ -60,4 +64,29 @@
   position: absolute;
   right: 0;
   top: -12px;
+}
+
+@media screen and (max-width: 1200px) {
+  .skillsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skillsPage {
+    padding-bottom: 140px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .skillsContainer {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  .skillsDescription {
+    margin-bottom: 60px;
+  }
+
+  .skillsPage {
+    padding-bottom: 100px;
+  }
 }
