@@ -318,6 +318,12 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
 @media screen and (max-width: 470px) {
   .shape {
     bottom: -60px;
