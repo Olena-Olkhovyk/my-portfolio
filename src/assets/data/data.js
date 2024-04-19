@@ -23,13 +23,13 @@ export const services = [
     name: "mentoring",
     title: "english language",
     description:
-      " I provide support for individuals looking to enhance their English language skills, guiding them through the learning process for effective language acquisition. ",
+      " I provide support for individuals looking to enhance their English language skills, guiding them through the learning process for effective communication. ",
   },
   {
     name: "mentoring",
     title: "bug fixing",
     description:
-      "I guide newcomers at SheCodes School in identifying and resolving bugs",
+      "I guide newcomers at the SheCodes School in identifying and resolving bugs.",
   },
 ];
 
