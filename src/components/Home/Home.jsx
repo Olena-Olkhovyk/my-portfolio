@@ -94,6 +94,9 @@ const Home = () => {
           </a>
         </div>
       </div>
+      <div className={classes.bgWrapper}>
+        <span className={classes.bgTitle}>Web Developer</span>
+      </div>
     </section>
   );
 };

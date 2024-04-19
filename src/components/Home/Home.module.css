@@ -7,9 +7,13 @@
   padding-top: 180px;
 }
 
+.home,
+.homeContainer {
+  position: relative;
+}
+
 .homeContainer {
   width: 100%;
-  position: relative;
 }
 
 .subTitle,
@@ -174,6 +178,27 @@
 .shape3 {
   bottom: 0;
   right: -2%;
+}
+
+.bgWrapper {
+  position: absolute;
+  bottom: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bgTitle {
+  font-size: 300px;
+  font-family: var(--second-font);
+  font-weight: 700;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.02);
+}
+
+@media screen and (max-width: 1576px) {
+  .bgWrapper {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1500px) {
