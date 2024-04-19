@@ -53,7 +53,7 @@ const Home = () => {
         </div>
 
         <p className={classes.text}>
-          From Ukraine, Kharkiv. Based in Germany, Berlin. I have reach
+          From Ukraine, Kharkiv. Based in Germany, Berlin. I have rich
           experiance in Frontend. I love exploring and creating💥 I'm a lifelong
           learner and I might have a thing for Sushi🍣
         </p>
