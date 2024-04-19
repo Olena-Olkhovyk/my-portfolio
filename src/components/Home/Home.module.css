@@ -249,3 +249,54 @@
     row-gap: 60px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .imgWrapper {
+    margin-top: 120px;
+    max-width: 400px;
+  }
+
+  .profile {
+    right: 0px;
+  }
+
+  .data {
+    transform: scale(0.6);
+  }
+
+  .dataOne {
+    left: -12%;
+  }
+
+  .dataTwo {
+    right: -7%;
+  }
+
+  .shape1 {
+    width: 115px;
+    height: 115px;
+    right: 9%;
+  }
+
+  .shape2,
+  .shape3 {
+    width: 72px;
+    height: 72px;
+  }
+
+  .shape2 {
+    bottom: 12%;
+    left: -7%;
+  }
+
+  .shape3 {
+    bottom: 4%;
+    right: -1%;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .data {
+    width: 220px;
+  }
+}
