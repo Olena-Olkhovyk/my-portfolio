@@ -4,9 +4,8 @@
 }
 
 .footerSection {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .socials {
@@ -39,4 +38,13 @@
 
 .copyright span {
   color: var(--primary-color);
+}
+
+@media screen and (max-width: 574px) {
+  .footerSection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }
