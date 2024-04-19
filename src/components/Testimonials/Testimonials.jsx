@@ -26,15 +26,15 @@ const Testimonials = () => {
               clickable: true,
             }}
             breakpoints={{
-              540: {
+              960: {
                 slidesPerView: 1,
                 spaceBetween: 30,
               },
-              768: {
+              1200: {
                 slidesPerView: 2,
                 spaceBetween: 30,
               },
-              1200: {
+              1400: {
                 slidesPerView: 3,
                 spaceBetween: 40,
               },
