@@ -116,4 +116,8 @@
     flex-wrap: wrap;
     row-gap: 20px;
   }
+
+  .projectImg {
+    height: 200px;
+  }
 }
