@@ -1,6 +1,7 @@
 import fashionStore from "../../assets/portfolio/f.png";
 import weather from "../../assets/portfolio/w.png";
 import sushi from "../../assets/portfolio/s1.png";
+import swb from "../../assets/portfolio/swb.png";
 
 import sacha from "../testimonials/Sacha.webp";
 import olena from "../testimonials/Olena.webp";
@@ -90,25 +91,28 @@ export const projects = [
   },
   {
     id: 2,
+    img: swb,
+    category: "collaborative",
+    title: "Car repair",
+    link: "http://swbservis.s3-website.eu-central-1.amazonaws.com/?#",
+    description:
+      "This site is created with the help of react.You can sign up for high-quality car repairs.There is also a language switching function so that it is available to customers who do not know Ukrainian",
+  },
+  {
+    id: 3,
     img: fashionStore,
     category: "fashion",
     title: "Fashion store",
+    link: "https://olena-olkhovyk.github.io/Fashion-store/index.html",
     description:
       "Expanding my portfolio, I delved into the realm of fashion with the creation of a stylish online menswear store. Meticulously developed using HTML, CSS, and JavaScript, the site seamlessly integrates adaptive design for a flawless experience across devices.",
   },
   {
-    id: 3,
+    id: 4,
     img: weather,
     category: "weather",
     title: "Weather",
-    description:
-      "I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions. ",
-  },
-  {
-    id: 4,
-    img: weather,
-    category: "me",
-    title: "Me",
+    link: "https://olena-olkhovyk.github.io/Weather-project/",
     description:
       "I designed and implemented a weather website. Developed with HTML, CSS, and JavaScript, this site seamlessly integrates weather APIs to deliver accurate and up-to-date forecasts. The user-friendly interface allows visitors to effortlessly check current conditions. ",
   },
