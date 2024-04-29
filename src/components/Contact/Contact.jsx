@@ -4,6 +4,7 @@ import classes from "./contact.module.css";
 import { FaRegAddressBook, FaRegEnvelope, FaRegMap } from "react-icons/fa";
 import axios from "axios";
 const Contact = () => {
+  const [notification, setNotification] = useState("");
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -26,13 +27,25 @@ const Contact = () => {
       )
       .then((response) => {
         console.log(response);
-        //clearing from fileds
         setForm({ name: "", email: "", subject: "", message: "" });
+        const capitalizedFirstName =
+          form.name.charAt(0).toUpperCase() + form.name.slice(1);
+        setNotification(
+          `${capitalizedFirstName}, thank you for contacting me! Your message was sent successfully!`
+        );
+        setTimeout(() => {
+          setNotification(null);
+        }, 3000);
       });
   };
   const container = "container";
   return (
     <div className={classes.contactPage} id="contact">
+      {notification && (
+        <div className={classes.alertBox}>
+          <h2>{notification}</h2>
+        </div>
+      )}
       <div className={`${container} ${classes.contactSection}`}>
         <h2 className="sectionTitle">Contact Me</h2>
         <p className="sectionSubtitle">
@@ -75,6 +88,7 @@ const Contact = () => {
                   value={form.name}
                   onChange={handleChange}
                   className={classes.formInput}
+                  required
                 />
               </div>
               <div className={classes.formDiv}>
@@ -87,6 +101,7 @@ const Contact = () => {
                   value={form.email}
                   onChange={handleChange}
                   className={classes.formInput}
+                  required
                 />
               </div>
             </div>
@@ -100,6 +115,7 @@ const Contact = () => {
                 value={form.subject}
                 onChange={handleChange}
                 className={classes.formInput}
+                required
               />
             </div>
             <div className={`${classes.formDiv} ${classes.formArea}`}>
@@ -111,6 +127,7 @@ const Contact = () => {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
+                required
               ></textarea>
             </div>
 
