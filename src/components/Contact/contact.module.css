@@ -159,3 +159,22 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 574px) {
+  .alertBox h2 {
+    padding: 100px 30px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .alertBox {
+    max-width: 500px;
+    width: 80%;
+    height: 360px;
+  }
+
+  .alertBox h2 {
+    padding: 80px 20px;
+  }
+}
