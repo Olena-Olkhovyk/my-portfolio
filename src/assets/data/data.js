@@ -84,7 +84,7 @@ export const projects = [
   {
     id: 0,
     img: fitnessApp,
-    category: "food",
+    category: "react",
     title: "Fitness App",
     link: "https://fitness-app-psi-lemon.vercel.app/",
     description:
@@ -93,7 +93,7 @@ export const projects = [
   {
     id: 1,
     img: sushi,
-    category: "food",
+    category: "react",
     title: "Sushi resturant",
     link: "https://sushi-restaurant1.vercel.app/",
     description:
@@ -111,7 +111,7 @@ export const projects = [
   {
     id: 3,
     img: fashionStore,
-    category: "fashion",
+    category: "javascript",
     title: "Fashion store",
     link: "https://olena-olkhovyk.github.io/Fashion-store/index.html",
     description:
@@ -120,7 +120,7 @@ export const projects = [
   {
     id: 4,
     img: weather,
-    category: "weather",
+    category: "javascript",
     title: "Weather",
     link: "https://olena-olkhovyk.github.io/Weather-project/",
     description:
