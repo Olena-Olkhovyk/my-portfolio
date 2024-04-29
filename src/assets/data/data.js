@@ -2,6 +2,7 @@ import fashionStore from "../../assets/portfolio/f.png";
 import weather from "../../assets/portfolio/w.png";
 import sushi from "../../assets/portfolio/s1.png";
 import swb from "../../assets/portfolio/swb.png";
+import fitnessApp from "../../assets/portfolio/fitnessApp.png";
 
 import sacha from "../testimonials/Sacha.webp";
 import olena from "../testimonials/Olena.webp";
@@ -81,6 +82,15 @@ export const skills = [
 
 export const projects = [
   {
+    id: 0,
+    img: fitnessApp,
+    category: "food",
+    title: "Fitness App",
+    link: "https://fitness-app-psi-lemon.vercel.app/",
+    description:
+      "Successfully combining my React expertise with API integration.I integrated two APIs: one for fetching exercises and another for displaying related workout videos from YouTube. Users can open an extra page and see detailed information about each of exercise.",
+  },
+  {
     id: 1,
     img: sushi,
     category: "food",
@@ -96,7 +106,7 @@ export const projects = [
     title: "Car repair",
     link: "http://swbservis.s3-website.eu-central-1.amazonaws.com/?#",
     description:
-      "This site is created with the help of react.You can sign up for high-quality car repairs.There is also a language switching function so that it is available to customers who do not know Ukrainian",
+      "This site is created with the help of react.You can sign up for high-quality car repairs.There is also a language switching function so that it is available to customers who do not know Ukrainian.",
   },
   {
     id: 3,
