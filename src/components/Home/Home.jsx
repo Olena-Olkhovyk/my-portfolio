@@ -1,11 +1,19 @@
 import classes from "./Home.module.css";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import profileImg from "../../assets/home/olena1.png";
 import shape1 from "../../assets/home/shape-1.png";
 import shape2 from "../../assets/home/shape-2.png";
 const Home = () => {
   const container = "container";
+
+  const [text] = useTypewriter({
+    words: ["Frontend Developer", "React Frontend Developer"],
+    loop: {},
+    typeSpeed: 120,
+    deleteSpeed: 80,
+  });
   return (
     <section className={classes.home} id="home">
       <div className={`${container} ${classes.homeContainer}`}>
@@ -18,7 +26,11 @@ const Home = () => {
         </h1>
 
         <p className={classes.job}>
-          <span>I AM</span> <b>React Frontend Developer</b>
+          <span>I AM</span> <b>{text}</b>
+          <span>
+            {" "}
+            <Cursor cursorStyle="|" />
+          </span>
         </p>
 
         <div className={classes.imgWrapper}>
