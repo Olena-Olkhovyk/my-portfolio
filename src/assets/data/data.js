@@ -17,12 +17,6 @@ export const services = [
   },
   {
     name: "mentoring",
-    title: "html, css, js, react",
-    description:
-      "I assist beginners in building websites by providing mentorship and guidance, ensuring they gain the necessary skills and knowledge. ",
-  },
-  {
-    name: "mentoring",
     title: "english language",
     description:
       " I provide support for individuals looking to enhance their English language skills, guiding them through the learning process for effective communication. ",
