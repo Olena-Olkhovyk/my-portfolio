@@ -14,9 +14,6 @@ const Skills = () => {
             <div className={classes.skillsItem} key={index}>
               <div className={classes.skillsTitle}>
                 <h3 className={classes.skillsName}>{name}</h3>
-                <span className={classes.skillsNumber}>
-                  {percentage} <span>%</span>
-                </span>
               </div>
               <p className={classes.skillsDescription}>{description}</p>
               <div className="skillsBar">
