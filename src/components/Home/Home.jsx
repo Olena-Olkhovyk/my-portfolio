@@ -44,7 +44,7 @@ const Home = () => {
 
           <p className={`${classes.data} ${classes.dataOne}`}>
             <span className={classes.lgText}>
-              2 <b>+</b>
+              4
             </span>
             <span className={classes.textSm}>
               Years of <span>Experiance</span>
@@ -52,7 +52,7 @@ const Home = () => {
           </p>
 
           <p className={`${classes.data} ${classes.dataTwo}`}>
-            <span className={classes.lgText}>7</span>
+            <span className={classes.lgText}>15+</span>
             <span className={classes.textSm}>
               {" "}
               Completed <span>Projects</span>
@@ -66,7 +66,7 @@ const Home = () => {
 
         <p className={classes.text}>
           From Ukraine, Kharkiv. Based in Germany, Berlin. I have rich
-          experiance in Frontend. I love exploring and creating💥 I'm a lifelong
+          experiance in Frontend and Backend. I love exploring and creating💥 I'm a lifelong
           learner and I might have a thing for Sushi🍣
         </p>
 
